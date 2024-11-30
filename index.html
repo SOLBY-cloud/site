@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLBY - Tap to Earn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>SOLBY</h1>
+        
+        <div class="toad-container">
+            <img src="golden_coin.png" alt="SOLBY Coin" class="coin-image" id="coin">
+            <div class="level-badge" id="levelBadge">Level 1</div>
+        </div>
+
+        <div class="tap-text">Tap the coin to earn $SOLBY!</div>
+        <div class="mining-rate" id="miningRate">Mining Rate: 2 $SOLBY/tap</div>
+
+        <div class="stats">
+            <p>Mining Power: <span id="power">1</span></p>
+            <p>SOLBY Balance: <span id="balance">0</span> $SOLBY</p>
+        </div>
+
+        <!-- Botón para una futura conexión a billetera -->
+        <button class="connect-btn disabled" id="upgradeMining">Mining Power UP ... SOON</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
